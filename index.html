@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AquaSense Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Header Image">
+    </header>
+    <main>
+        <section id="calculator">
+            <h2>Calculadora de Consumo de Agua</h2>
+            <form id="calculator-form">
+                <label for="usage">Consumo en m³ / Huella de carbono:</label>
+                <input type="number" id="usage" name="usage" required>
+                <button type="submit">Calcular</button>
+            </form>
+                <p id="result"></p>
+        </section>
+        
+        <section id="monthly">
+            <h2>Registro de Consumo</h2>
+            <form id="monthly-form">
+                <label for="monthly-usage">Consumo mensual en m³:</label>
+                <input type="number" id="monthly-usage" name="monthly-usage" required>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="feedback"></p>
+        </section>
+
+        <section id="tips">
+            <h2>Consejos sobre el Cuidado del Agua</h2>
+            <ol><li>Repara las Fugas:<br>
+
+                Consejo: Inspecciona regularmente grifos, tuberías y conexiones para detectar y reparar cualquier fuga.<br>
+                Estrategia: Instala dispositivos de detección de fugas y realiza revisiones periódicas. Un grifo que gotea puede desperdiciar hasta 20 litros de agua por día.</li>
+                <li>Utiliza Electrodomésticos Eficientes:<br>
+                
+                Consejo: Opta por electrodomésticos de bajo consumo de agua, como lavadoras y lavavajillas eficientes.<br>
+                Estrategia: Busca etiquetas de eficiencia energética y certificaciones de ahorro de agua al comprar nuevos electrodomésticos. Usa la lavadora y el lavavajillas solo cuando estén completamente llenos.</li>
+                <li>Recoge Agua de Lluvia:<br>
+                
+                Consejo: Instala sistemas de recolección de agua de lluvia para usos no potables, como riego de jardines.<br>
+                Estrategia: Coloca barriles de lluvia bajo las canaletas de tu casa para recolectar el agua de lluvia. Esta agua puede usarse para regar plantas, lavar autos y más.</li>
+                <li>Reduce el Tiempo en la Ducha:<br>
+                
+                Consejo: Limita el tiempo que pasas en la ducha para reducir el consumo de agua.<br>
+                Estrategia: Usa un temporizador para asegurarte de no exceder los 5 minutos en la ducha. Considera instalar cabezales de ducha de bajo flujo que ahorran agua.</li>
+                <li>Riega el Jardín de Manera Eficiente:<br>
+                
+                Consejo: Riega las plantas durante las horas más frescas del día, como temprano en la mañana o al atardecer, para minimizar la evaporación.<br>
+                Estrategia: Utiliza sistemas de riego por goteo que entregan agua directamente a las raíces de las plantas y cubre el suelo con mulch para retener la humedad.</li>
+                <li>Cierra el Grifo:<br>
+                
+                Consejo: Cierra el grifo mientras te cepillas los dientes, te afeitas o lavas los platos a mano.<br>
+                Estrategia: Llena un recipiente con agua para enjuagar platos en lugar de hacerlo bajo el chorro. Esta práctica puede ahorrar varios litros de agua cada día.</li>
+                <li>Instala Aireadores en los Grifos:<br>
+                
+                Consejo: Coloca aireadores en los grifos para reducir el flujo de agua sin afectar la presión.<br>
+                Estrategia: Los aireadores mezclan aire con el agua, reduciendo el flujo sin sacrificar la eficacia. Esto puede disminuir el consumo de agua en hasta un 50%.</li></ol>
+        </section>
+
+        <section id="about">
+            <h2>Sobre el Proyecto</h2>
+            <section>
+                <h2>Objetivo del Proyecto</h2>
+                <p>AquaSafe tiene como objetivo ayudarte a monitorear y reducir tu consumo de agua, promoviendo prácticas sostenibles y saludables.</p>
+            </section>
+            <section>
+                <h2>Integrantes del Equipo</h2>
+                <ul><li>Lizeth Morales</li>
+                    <li>Luciana Villamizar</li>
+                    <li>Sara Quiroz</li></ul>
+            </section>
+            <section>
+                <h2>Desarrollo</h2>
+                <p>Con el uso de herramientas como <b>Visual Studio Code</b> y <b>JavaScript</b> se logró el desarrollo de esta aplicacion web enfocada en la concientización sobre el consumo del agua y cuidado de la misma.</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>Colegio Naval Santa Fe de Bogotá, 2024.</p>
+    </footer>
+</body>
+</html>
+
